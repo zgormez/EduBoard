@@ -1,8 +1,3 @@
----
-
-## 📄 Business_Backlog.md
-
-```markdown
 # Business Backlog – EduBoard Project
 
 ## BR-1 – User Registration/Login
