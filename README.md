@@ -1,6 +1,6 @@
 # EduBoard – Trello-Style Project Management App
 
-### 📖 Overview
+## 📖 Overview
 EduBoard is a **Trello-like project management application** developed as an **educational project with students**.  
 It allows users to create projects, boards, and tasks, and manage them with a **Kanban workflow**.
 
@@ -25,10 +25,19 @@ It allows users to create projects, boards, and tasks, and manage them with a **
 - **Deployment (optional):** Docker + Heroku/Render/Railway
 
 ---
+## Project Management (Scrum)
 
-### 🚀 Getting Started
+We follow Scrum methodology:
+	•	**Product Backlog** → GitHub Issues
+	•	**Sprint Planning** → GitHub Milestones
+	•	**Task Board** → GitHub Projects (Kanban)
+	•	**Daily Stand-up** → Check In Progress column ??
+	•	**Sprint Review & Retrospective** → GitHub Discussions
 
-#### 1. Clone the Repository
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/<your-username>/EduBoard.git
 cd EduBoard
