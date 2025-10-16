@@ -24,11 +24,18 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;  /* sola al */
+  align-items: flex-start;      /* yukarıdan başlat */
+  padding: 20px;
+
+  background:
+    radial-gradient(900px 500px at 20% 65%, rgba(255, 255, 255, 0.12), transparent),
+    linear-gradient(135deg, #6a20e3, #4f11cc);
 }
+
 
 h1 {
   font-size: 3.2em;
