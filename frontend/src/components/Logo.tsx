@@ -1,20 +1,17 @@
-// src/components/Logo.tsx
 import type { JSX } from "react";
 
-type Props = {
-  label?: string;
-};
+type Props = { label?: string };
 
 export default function Logo({ label = "IT4US TODO" }: Props): JSX.Element {
   return (
     <a
       href="/"
-      aria-label="Go to login"
+      aria-label="Home"
       style={{
-        position: "fixed",   // <-- sabit
-        top: 16,             // <-- sol-üst konum
+        position: "fixed",
+        top: 16,
         left: 16,
-        zIndex: 1000,
+        zIndex: 10,
         display: "inline-flex",
         alignItems: "center",
         justifyContent: "center",
@@ -24,7 +21,7 @@ export default function Logo({ label = "IT4US TODO" }: Props): JSX.Element {
         background:
           "linear-gradient(135deg, rgba(124,58,237,1) 0%, rgba(147,51,234,1) 100%)",
         color: "#fff",
-        fontWeight: 700,
+        fontWeight: 800,
         letterSpacing: 0.5,
         textDecoration: "none",
         boxShadow: "0 6px 20px rgba(124,58,237,.35)",
