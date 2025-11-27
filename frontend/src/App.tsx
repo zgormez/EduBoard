@@ -15,10 +15,11 @@ export default function App(): JSX.Element {
       <Logo />
 
       {/* Üst sağ About / Contact */}
-      <nav className="top-nav">
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
+     <nav className="top-nav">
+  <a href="/About.html">About</a>
+  <a href="/Contact.html">Contact</a>
+</nav>
+
 
       {/* Sol görsel */}
       <Decor />
